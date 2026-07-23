@@ -1,15 +1,15 @@
-              #functions#
+              #functions# (runs only when called)
 #Calculating wages according to hours
-# def calculate_wages(hours, rate):
-#     if hours<=40:
-#         return rate*hours
-#     else:
-#         remain= hours-40
-#         return ((rate*40)+ remain*1.5*rate)
+def calculate_wages(hours: float, rate: float):
+    if hours<=40:
+        return rate*hours
+    else:
+        remain= hours-40
+        return ((rate*40)+ remain*1.5*rate)
 
-# hours= float(input())
-# rate=float(input())
-# print('Total wages:',calculate_wages(hours,rate))
+hours= float(input())
+rate=float(input())
+print('Total wages:',calculate_wages(hours,rate))
 
 
 #assigning grades 
