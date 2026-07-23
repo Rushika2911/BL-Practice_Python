@@ -15,3 +15,8 @@ functions- resuable block of code which runs only when called.
 -typecast your datatype during input
 
 error handling- it is a good practice to handle errors to prevent it from stopping abruptly during runtime
+Finally:
+this block always executes regardless of whether an exception was raised or not.
+mainly used for cleanup operations:
+- file closing
+- closing database connections etc.
